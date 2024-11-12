@@ -25,10 +25,10 @@ const Footer = () => {
           Presentations
         </h1>
         <div className='dets mt-20'>
-          <a className='block text-xl' href="#">Linkedin</a>
-          <a className='block text-xl' href="#">Github</a>
-          <a className='block text-xl' href="#">Instagram</a>
-          <a className='block text-xl' href="#">X</a>
+          <a className='block text-xl' href="https://www.linkedin.com/in/surbhi-verma-a63881295/">Linkedin</a>
+          <a className='block text-xl' href="https://github.com/YuiSurbhi">Github</a>
+          <a className='block text-xl' href="https://www.instagram.com/yuisurbhi/">Instagram</a>
+          <a className='block text-xl' href="https://x.com/YuiSurbhi">X</a>
         </div>
       </div>
     </div>
