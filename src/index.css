@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.letter-spacing-compact {
+    letter-spacing: -3.5px;
+}
+/* Inside App.css or index.css */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Apply Gilroy as the default font for the body */
+  body {
+    font-family: 'Gilroy', sans-serif;
+  }
+  
+  
